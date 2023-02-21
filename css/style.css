@@ -241,7 +241,7 @@ html body .sec2 h1 {
 .s1_slide li.on .gra {opacity: 1;}
 
 .sec3 {
-  background: #000;
+  background: #1b1c1e;
   position: relative;
   z-index: 1000;
 }
@@ -779,7 +779,7 @@ html body .sec2 h1 {
 }
 
 footer {
-  background: #000;
+  background: #1b1c1e;
   padding: 50px 50px;
 }
 
