@@ -34,9 +34,7 @@ section {
   padding: 150px 0 150px 0;
 }
 
-html body section .inner,
-html body header .inner,
-footer .inner {
+.inner {
   width: 1440px;
   margin: 0 auto;
 }
@@ -50,7 +48,7 @@ html body header {
   transition: 0.3s;
 }
 html body header .inner {
-  padding: 0;
+  padding: 0 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,6 +102,12 @@ html body header:hover .logo {
   height: 40px;
   display: block;
 }
+
+header .menu {
+  white-space: nowrap;
+
+}
+
 html body header:hover .menu a {
   color: #000;
   font-weight: 700;
@@ -127,11 +131,11 @@ html body .sec1 {
   background: url(../images/main.jpg) 50% 50% no-repeat;
   background-size: cover;
   position: relative;
-  height: 100vh;
+  height: 100%;
 }
 html body .sec1 .ob {
-  width: 943px;
-  height: 657px;
+  width: 53%;
+  height: 67%;
   position: absolute;
   top: 220px;
   background: linear-gradient(to right, rgba(115, 211, 177, 0.8), rgba(115, 211, 177, 0.3));
